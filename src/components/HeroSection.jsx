@@ -26,9 +26,9 @@ const HeroSection = () => {
             </div>
 
             {/* Main Content */}
-            <div className="relative top-6 z-20 flex items-center justify-between h-full px-16">
+            <div className="relative top-6 z-20 flex items-center justify-between h-full px-16 max-sm:px-8">
                 {/* Heading and Text */}
-                <div className="max-w-lg text-black pl-6">
+                <div className="max-w-lg max-sm:pt-32 max-sm:pl-0 text-black pl-6">
                     <p className='text-[#DF6951] text-xl font-semibold uppercase py-2'>Best Destinations around the world</p>
                     <h1 className="text-7xl font-bold mb-4 text-[#181E4B]">Travel, <span className="relative inline-block">enjoy
                     <img 
@@ -48,7 +48,7 @@ const HeroSection = () => {
                 </div>
 
                 {/* Picture on the Right Overlapping the Blob */}
-                <div className="w-[40%] h-auto relative z-20 pt-20">
+                <div className="w-[40%] max-sm:hidden h-auto relative z-20 pt-20">
                     <img
                         src="/assets/Traveller.png"
                         alt="Decorative"

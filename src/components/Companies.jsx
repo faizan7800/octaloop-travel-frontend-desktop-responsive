@@ -2,7 +2,7 @@ import React from 'react'
 
 const Companies = () => {
   return (
-    <div className='flex justify-center items-center mx-16 mb-16 gap-20 mt-32'>
+    <div className='flex max-sm:flex-col justify-center items-center mx-16 max-sm:mx-4 mb-16 gap-20 mt-32'>
         <div>
             <img src="/assets/axon.png" alt="" />
         </div>

@@ -2,14 +2,14 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div  className='grid grid-cols-3 mx-16 mb-16 gap-10 mt-32'>
+    <div  className='grid grid-cols-3 max-sm:grid-cols-1 mx-16 max-sm:mx-4 mb-16 gap-10 mt-32'>
         <div className='flex flex-col justify-center items-start gap-4'>
             <img src="/assets/Logo.png" alt="" />
             <p className='text-[#5E6282] w-1/2'>Book your trip in minute, get full
 Control for much longer.
 </p>
         </div>
-        <div className='flex justify-center items-center gap-32'>
+        <div className='grid grid-cols-3 gap-32 max-sm:gap-10'>
         <div className='flex flex-col justify-center items-start gap-4'>
         <p className='text-2xl font-bold'>Company</p>
         <ul className='flex flex-col justify-center items-start gap-3 text-xl text-[#5E6282]'>
@@ -26,7 +26,7 @@ Control for much longer.
             <li>Affiliates</li>
         </ul>
         </div>
-        <div className='flex flex-col justify-center items-start gap-4 w-full'>
+        <div className='flex flex-col justify-center items-start gap-4'>
         <p className='text-2xl font-bold'>More</p>
         <ul className='flex flex-col justify-center items-start gap-3 text-xl text-[#5E6282] w-full'>
             <li>Airline</li>

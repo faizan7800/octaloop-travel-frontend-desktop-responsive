@@ -2,8 +2,8 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <div className=' flex justify-center items-center mx-16 mb-16 gap-10 mt-32'>
-    <div className='flex flex-col justify-center items-start gap-6 w-[50%]'>
+    <div className=' flex max-sm:flex-col justify-center items-center mx-16 mb-16 gap-10 mt-32'>
+    <div className='flex flex-col justify-center items-start gap-6 w-[50%] max-sm:w-full'>
     <h2 className='uppercase text-[#5E6282] font-semibold'>Easy and Fast</h2>
     <h1 className='text-6xl text-[#14183E] font-bold'>Book your next trip <br /> 
     in 3 easy steps</h1>
@@ -13,7 +13,7 @@ const Testimonials = () => {
             <p className='rounded-full p-1 bg-[#E5E5E5]'></p>
         </div>
     </div>
-    <div className='relative flex justify-center items-center gap-10 w-[31%]  '>
+    <div className='relative flex justify-center items-center gap-10 w-[31%] max-sm:w-full max-sm:mt-16'>
         <img src="/assets/Image.png" className='absolute -top-10 -left-10' alt="" />
         <div className='flex flex-col justify-center items-start gap-10 rounded-2xl shadow-xl  px-4 bg-white w-[100%] py-8'>
             <p className='text-[#5E6282]'>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>

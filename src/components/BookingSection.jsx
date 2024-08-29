@@ -2,10 +2,10 @@ import React from 'react'
 
 const BookingSection = () => {
   return (
-    <div className=' flex justify-center items-center mx-16 mb-16 gap-20 mt-32'>
-        <div className='flex flex-col justify-center items-start gap-6 w-1/2'>
+    <div className='flex max-sm:flex-col justify-center items-center mx-16 max-sm:mx-4 mb-16 gap-20  mt-32'>
+        <div className='flex flex-col justify-center items-start gap-6 w-1/2 max-sm:w-full'>
         <h2 className='uppercase text-[#5E6282] font-semibold'>Easy and Fast</h2>
-        <h1 className='text-6xl text-[#14183E] font-bold'>Book your next trip <br /> 
+        <h1 className='text-6xl text-[#14183E] font-bold max-sm:w-full max-sm:text-4xl'>Book your next trip <br /> 
         in 3 easy steps</h1>
         <div className='flex flex-col justify-center items-center gap-10 mt-10'>
             <div className='flex justify-center items-center gap-6'>
@@ -34,7 +34,7 @@ const BookingSection = () => {
             </div>
         </div>
         </div>
-        <div className='relative bg-white shadow-xl rounded-2xl p-3 flex flex-col justify-center items-start gap-6'>
+        <div className='relative bg-white shadow-xl rounded-2xl p-3 flex flex-col justify-center items-start gap-6 '>
             <img className='absolute -top-[5.5rem] -right-[6rem] -z-10' src="/assets/glow.png" alt="" />
             <img src="/assets/greece.jpg" alt="" className=''/>
             <div className='pl-2'>
@@ -59,7 +59,7 @@ const BookingSection = () => {
             </p>
             <img src="/assets/heart.png" alt="" />
             </div>
-            <div className='absolute  flex justify-center items-center gap-4 bg-white shadow-xl p-4 -right-[5.5rem] rounded-2xl bottom-10'>
+            <div className='absolute  flex justify-center items-center gap-4 bg-white shadow-xl p-4 -right-[5.5rem] rounded-2xl bottom-10 max-sm:hidden'>
                 <img src="/assets/infra.png" alt="" className='rounded-full' />
                 <div className='flex flex-col justify-center items-start gap-1'>
                     <p className='text-sm text-[#84829A] font-semibold'>Ongoing</p>
